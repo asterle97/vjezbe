@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Kalkulator</title>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta name="author" content="Ante Šterle">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+		<div style="margin-top:100px; margin-left:150px">
+			<form action="skripta.php" method="get">
+			<span>Upiši prvi broj:</span> <input type="number" name="broj1" /><br>
+			<span style="margin-top:20px">Upiši drugi broj:</span> <input type="number" name="broj2" style="margin-top:20px" /><br>
+			<select name="dropdown" style="margin-top:20px">
+			<option value="1">Zbroji</option>
+			<option value="2">Oduzmi</option>
+			<option value="3">Pomnoži</option>
+			<option value="4">Podjeli</option>
+			</select>
+			<input type="submit" name="sbmt" value="izračunaj" required style="margin-top:20px; color:red" />
+			</form>
+		</div>
+		
+	</body>
+</html>
