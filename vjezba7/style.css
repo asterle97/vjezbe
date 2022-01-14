@@ -1,0 +1,20 @@
+
+body {
+    background-color: grey;
+}
+.uredi label{
+    color: Blue;
+    margin-top: 15px;
+
+}
+
+.uredi input{
+    color: yellow;
+    background-color: blue;
+    margin-top:15px;
+}
+
+.uredi h1{
+    color: red;
+    
+}
